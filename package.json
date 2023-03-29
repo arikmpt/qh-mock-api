@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "npx sequelize-cli db:migrate & nodemon index.js",
-    "start": "nodex index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
